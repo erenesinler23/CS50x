@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: In already sorted list, the time is very short but in reverse, it is very long.
+
+sort2 uses: Merge Sort
+
+How do you know?: Because it is very fast even in the reversed50000.txt, it is very fast in all datasets.
+
+sort3 uses: Selection Sort
+
+How do you know?: It is slower in larger datasets compared to sort1 and sort2. It is faster sorting smaller datasets.
