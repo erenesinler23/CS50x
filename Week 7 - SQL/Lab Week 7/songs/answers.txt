@@ -1,0 +1,11 @@
+Question 1: If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+Answer: The average energy of the top 100 songs is 0.66 and there is only one song which is 1, 2, 3 by Jason Derulo
+that both danceability, energy and valence greater than 0.75. This means that the user is more likely that has a a music aura
+which is calm.
+
+
+Question 2: Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+Answer: I calculated this aura by taking the average energy of the users' top 100 songs. This method could be improved by expanding the search and analyzing
+the users' preferences of music in certain times and dates. 
