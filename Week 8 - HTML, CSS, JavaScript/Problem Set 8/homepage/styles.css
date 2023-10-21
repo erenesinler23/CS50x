@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #007bff;
+    margin: 0;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  h1 {
+    color: #007bff;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin: 10px 0;
+  }
+
+  a {
+    color: #007bff;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+
+  th, td {
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+  }
+
+  form {
+    margin: 20px 0;
+  }
+
+  label {
+    display: block;
+    margin: 5px 0;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #dcdcdc;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Additional CSS selector */
+  ul li {
+    color: #555;
+    margin: 5px 0;
+  }
