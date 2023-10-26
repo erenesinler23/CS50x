@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spotify Data Analyzer by Eren Esinler</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <a href="https://open.spotify.com/intl-tr?" target="_blank">
+            <img src="{{ url_for('static', filename='images/spotify.png') }}" alt="Spotify Logo" width="100">
+        </a>
+        <h1 class="title">Spotify Data Analyzer</h1>
+        <p class="subtitle">Welcome to Spotify Data Analyzer by Eren Esinler</p>
+        <div class="options">
+            <div class="option">
+                <p>Best Analyzer on the Web</p>
+                <a href='/login' class="spotify-button">Log in with Spotify</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

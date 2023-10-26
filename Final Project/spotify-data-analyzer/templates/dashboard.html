@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+<body>
+    <h1>Welcome to your Music Dashboard</h1>
+    
+    <h2>Your Profile Information:</h2>
+    
+    <div class="profile-container">
+        <a href="https://erenesinler.com" target="_blank">
+            <img src="{{ url_for('static', filename='images/spotify_profile.jpg') }}" alt="Your Profile Photo" width="150">
+        </a>
+    </div>
+
+    <p>Username: drleren333</p>
+    <p>Email: erenesinler23@gmail.com</p>
+    
+    <h2>Top 5 Songs:</h2>
+    <ol>
+        <li>Song 1: Sicko Mode - Travis Scott</li>
+        <li>Song 2: Plain Jane - Eminem</li>
+        <li>Song 3: Monster (Skrillex) - UZI</li>
+        <li>Song 4: Stan (Eminem) - Cakal</li>
+        <li>Song 5: Believer - Pop Smoke</li>
+    </ol>
+    
+    <h2>Top 5 Artists:</h2>
+    <ol>
+        <li>Artist 1: Travis Scott</li>
+        <li>Artist 2: Eminem</li>
+        <li>Artist 3: UZI</li>
+        <li>Artist 4: Cakal</li>
+        <li>Artist 5: Pop Smoke</li>
+    </ol>
+
+    <div class="button-container">
+        <a class="btn" href="/playlists">Analyze Yourself</a>
+</body>
+</html>
